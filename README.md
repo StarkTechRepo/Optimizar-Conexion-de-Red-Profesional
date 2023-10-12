@@ -11,18 +11,23 @@ Antes de realizar cualquier cambio, es recomendable comprobar la velocidad de tu
 
 - Desactiva la administración de energía:
   - En las propiedades de la tarjeta de red, ve a "Configurar" y desactiva la administración de energía.
+ - Descripción: Esta acción es necesaria para evitar que la tarjeta de red se desconecte o reduzca su rendimiento automáticamente con el objetivo de ahorrar energía. Garantiza una conexión de red estable y constante.
 
 - Desactiva el modo de ahorro de energía:
   - En "Opciones avanzadas", asegúrate de que el "Power Saving mode" esté desactivado.
+  - Descripción: Al asegurarte de que el "Power Saving mode" esté desactivado en las opciones avanzadas, te aseguras de que la tarjeta de red no reduzca su rendimiento según la carga de trabajo. Esto es crucial para mantener una conexión de alta velocidad y sin interrupciones.
 
 - Configura la velocidad y el modo Duplex:
   - En "Configurar", selecciona "Velocidad y Duplex" y establece la velocidad en 100 Mbps Full Duplex.
+  - Descripción: Establecer la velocidad en 100 Mbps Full Duplex garantiza una conexión de red más rápida y confiable, lo que es fundamental cuando se necesita una conexión constante y de alto rendimiento para aplicaciones de ancho de banda intensivo.
 
 - Actualiza los controladores de la tarjeta de red:
   - En "Configurar", busca la opción "Actualizar controlador" y asegúrate de tener los controladores más recientes instalados.
+  - Descripción: Mantener los controladores de la tarjeta de red actualizados es esencial para solucionar problemas de compatibilidad y mejorar el rendimiento general. Los controladores actualizados suelen abordar problemas conocidos y garantizan un funcionamiento óptimo.
 
 - Configura los servidores DNS:
   - En "Protocolo de Internet versión 4 (TCP/IPv4)", ve a "Propiedades" y selecciona "Usar las siguientes direcciones de servidor DNS". Puedes utilizar los servidores DNS de Google: [DNS Google](https://developers.google.com/speed/public-dns?hl=es-419).
+  - Descripción: Configurar servidores DNS confiables, como los de Google, mejora la resolución de nombres de dominio y acelera la carga de páginas web. Esto es beneficioso para una navegación más rápida y para evitar problemas de resolución de DNS que pueden causar interrupciones en la conectividad de red.
 
 ## 3. Cómo Obtener la Puerta de Enlace, Acceder al Router y Configurar los Servidores DNS**
   - **Descripción:** Cambiar la configuración de DNS en tu router es una tarea importante para mejorar la seguridad y velocidad de tu conexión a Internet. Sigue estos pasos detallados:
@@ -47,11 +52,12 @@ Antes de realizar cualquier cambio, es recomendable comprobar la velocidad de tu
 
     6. **Aplicar la Configuración:**
        - Guarda los cambios. La nueva configuración de DNS se aplicará a todos los dispositivos conectados al router, mejorando la seguridad y velocidad de tu conexión a Internet.
-
-    Cambiar la configuración de DNS es beneficioso y, siguiendo estos pasos, podrás hacerlo con facilidad. Recuerda que las ubicaciones exactas de las opciones pueden variar según el modelo del router, por lo que estos pasos generales te servirán de guía.
+    
+   - Descripción: Cambiar los servidores DNS en la configuración del router permite controlar las resoluciones de nombres de dominio para todos los dispositivos conectados a la red. Esto puede ser útil para mejorar la seguridad y la velocidad de navegación, así como para filtrar contenido no deseado. Al configurar servidores DNS confiables, como los de Google o OpenDNS, puedes experimentar una navegación más rápida y segura en todos tus dispositivos conectados a la red.
 
 ## 4. Desactivar la capacidad de Windows de ajustar automáticamente el tamaño de los búferes de red.
  ```netsh int tcp set global autotuninglevel=disabled ```
+  - Descripción: Esto puede ser necesario en situaciones donde se experimentan problemas de latencia o rendimiento en la red, ya que deshabilitar esta función permite un control más preciso sobre la configuración de los búferes de red, lo que puede mejorar la estabilidad y el rendimiento de la conexión.
 
 Para mejorar el rendimiento de red, desactiva la capacidad de Windows de ajustar automáticamente el tamaño de los búferes de red.
 
