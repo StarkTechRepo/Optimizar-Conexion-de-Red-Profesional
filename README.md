@@ -59,9 +59,7 @@ Antes de realizar cualquier cambio, es recomendable comprobar la velocidad de tu
  ```netsh int tcp set global autotuninglevel=disabled ```
   - Descripción: Esto puede ser necesario en situaciones donde se experimentan problemas de latencia o rendimiento en la red, ya que deshabilitar esta función permite un control más preciso sobre la configuración de los búferes de red, lo que puede mejorar la estabilidad y el rendimiento de la conexión.
 
-Para mejorar el rendimiento de red, desactiva la capacidad de Windows de ajustar automáticamente el tamaño de los búferes de red.
-
-Este proceso de optimización ayudará a mejorar la velocidad y la estabilidad de tu conexión a Internet, así como a asegurarte de que estés utilizando los servidores DNS más rápidos y confiables.
+##Este proceso de optimización ayudará a mejorar la velocidad y la estabilidad de tu conexión a Internet, así como a asegurarte de que estés utilizando los servidores DNS más rápidos y confiables.
 
 ### Lista de Agunos Servidores DNS Populares
 
