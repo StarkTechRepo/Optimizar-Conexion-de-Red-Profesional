@@ -29,7 +29,7 @@ Antes de realizar cualquier cambio, es recomendable comprobar la velocidad de tu
   - En "Protocolo de Internet versión 4 (TCP/IPv4)", ve a "Propiedades" y selecciona "Usar las siguientes direcciones de servidor DNS". Puedes utilizar los servidores DNS de Google: [DNS Google](https://developers.google.com/speed/public-dns?hl=es-419).
   - Descripción: Configurar servidores DNS confiables, como los de Google, mejora la resolución de nombres de dominio y acelera la carga de páginas web. Esto es beneficioso para una navegación más rápida y para evitar problemas de resolución de DNS que pueden causar interrupciones en la conectividad de red.
 
-## 3. Cómo Obtener la Puerta de Enlace, Acceder al Router y Configurar los Servidores DNS**
+## 3. Cómo Obtener la Puerta de Enlace, Acceder al Router y Configurar los Servidores DNS
   - **Descripción:** Cambiar la configuración de DNS en tu router es una tarea importante para mejorar la seguridad y velocidad de tu conexión a Internet. Sigue estos pasos detallados:
 
     1. **Obtener la Puerta de Enlace:**
