@@ -62,3 +62,32 @@ Antes de realizar cualquier cambio, es recomendable comprobar la velocidad de tu
 Para mejorar el rendimiento de red, desactiva la capacidad de Windows de ajustar automáticamente el tamaño de los búferes de red.
 
 Este proceso de optimización ayudará a mejorar la velocidad y la estabilidad de tu conexión a Internet, así como a asegurarte de que estés utilizando los servidores DNS más rápidos y confiables.
+
+### Lista de Agunos Servidores DNS Populares
+
+- **DNS de Google:**
+  - *Dirección IPv4 primaria*: 8.8.8.8
+  - *Dirección IPv4 secundaria*: 8.8.4.4
+  - *Características*: Ofrecen alta velocidad y confiabilidad. Google tiene servidores DNS en IPv4 e IPv6.
+  - [Sitio Oficial](https://developers.google.com/speed/public-dns)
+
+- **DNS de Cloudflare:**
+  - *Dirección IPv4 primaria*: 1.1.1.1
+  - *Dirección IPv4 secundaria*: 1.0.0.1
+  - *Características*: Conocidos por su velocidad y seguridad. Cloudflare mantiene registros de acceso privados y no vende datos de usuario.
+  - [Sitio Oficial](https://www.cloudflare.com/es-es/learning/dns/what-is-1.1.1.1/)
+
+- **DNS de OpenDNS:**
+  - *Dirección IPv4 primaria*: 208.67.222.222
+  - *Dirección IPv4 secundaria*: 208.67.220.220
+  - *Características*: Ofrecen controles parentales y filtrado de contenido. OpenDNS mantiene una lista de sitios web maliciosos conocidos.
+  - [Sitio Oficial](https://www.opendns.com/)
+
+- **DNS de Cloudflare para la familia (1.1.1.2 y 1.1.1.3):**
+  - *Dirección IPv4 primaria*: 1.1.1.2
+  - *Dirección IPv4 secundaria*: 1.1.1.3
+  - *Características*: Diseñados para filtrar contenido no deseado y proporcionar un filtro seguro para la familia.
+  - [Sitio Oficial](https://one.one.one.one/family/)
+
+## Licencia
+Este proyecto está bajo la licencia [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). Puedes compartir, adaptar y utilizar estos archivos siempre que des el crédito correspondiente al autor original.
