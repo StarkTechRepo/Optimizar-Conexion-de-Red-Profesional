@@ -1,8 +1,8 @@
 # Optimizar Internet
 
-## 1. Comprobar de velocidad de Internet
+## 1. Comprobar la Velocidad de Internet Después de la Optimización
 
-Antes de realizar cualquier cambio, es recomendable comprobar la velocidad de tu conexión a Internet. Puedes utilizar el sitio web [Speedtest](https://www.speedtest.net/es) para realizar esta prueba.
+Antes de realizar cualquier cambio, es recomendable comprobar la velocidad de tu conexión a Internet. Esto te permitirá evaluar si los ajustes de configuración, como la optimización de DNS, han tenido un efecto positivo en el rendimiento de tu conexión. Puedes utilizar el sitio web [Speedtest](https://www.speedtest.net/es) para realizar esta prueba y comparar los resultados con mediciones anteriores.
 
 ## 2. Configuración de la tarjeta de red
 
