@@ -61,7 +61,7 @@ Antes de realizar cualquier cambio, es recomendable comprobar la velocidad de tu
 
 ##Este proceso de optimización ayudará a mejorar la velocidad y la estabilidad de tu conexión a Internet, así como a asegurarte de que estés utilizando los servidores DNS más rápidos y confiables.
 
-### Lista de Agunos Servidores DNS Populares
+### Lista de Algunos Servidores DNS Populares
 
 - **DNS de Google:**
   - *Dirección IPv4 primaria*: 8.8.8.8
