@@ -59,6 +59,24 @@ Antes de realizar cualquier cambio, es recomendable comprobar la velocidad de tu
   - En Windows: Abre el "Símbolo del sistema" (Command Prompt) y escribe```netsh int tcp set global autotuninglevel=disabled ```
   - Descripción: Esto puede ser necesario en situaciones donde se experimentan problemas de latencia o rendimiento en la red, ya que deshabilitar esta función permite un control más preciso sobre la configuración de los búferes de red, lo que puede mejorar la estabilidad y el rendimiento de la conexión.
 
+## 4. Cómo cambiar el MTU
+- Cambiar el MTU puede mejorar la eficiencia y la estabilidad de la conexión de red al permitir que los paquetes se transmitan de manera más eficiente. Esto puede conducir a una mejor calidad de la conexión y un rendimiento más rápido en ciertas situaciones.
+
+1. **Verificación del MTU actual**
+```netsh interface ipv4 show subinterfaces```
+
+2. **Obtener el MTU estable con el comando ping**
+Puedes utilizar el comando ping para determinar el MTU estable de tu conexión. Comienza con un MTU alto y luego redúcelo gradualmente hasta que encuentres el valor más alto que permite una comunicación sin pérdida de paquetes. El siguiente comando te ayudará a realizar esta tarea:
+```ping [destino] -f -l [tamaño_paquete]```
+
+- [tamaño_paquete] es el tamaño inicial del paquete.
+- [destino] es la dirección IP o el nombre de host al que deseas enviar los paquetes.
+```ping google.com -f -l 1500```
+
+3. **Cambiar el MTU con el nuevo valor**
+- Puedes cambiar el MTU de una interfaz de red utilizando el siguiente comando:
+```netsh interface ipv4 set subinterface "Ethernet" mtu= [tamaño_paquete] store=persistent```
+
 ### Lista de Algunos Servidores DNS Populares
 
 - **DNS de Google:**
