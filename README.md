@@ -77,7 +77,7 @@ Puedes utilizar el comando ping para determinar el MTU estable de tu conexión. 
   - En Windows: Abre el "Símbolo del sistema" (Command Prompt) y escribe```netsh int tcp set global autotuninglevel=disabled ```
   - Descripción: Esto puede ser necesario en situaciones donde se experimentan problemas de latencia o rendimiento en la red, ya que deshabilitar esta función permite un control más preciso sobre la configuración de los búferes de red, lo que puede mejorar la estabilidad y el rendimiento de la conexión.
 
-### Lista de Algunos Servidores DNS Populares
+## 6.  Lista de Algunos Servidores DNS Populares
 
 - **DNS de Google:**
   - *Dirección IPv4 primaria*: 8.8.8.8
