@@ -55,10 +55,6 @@ Antes de realizar cualquier cambio, es recomendable comprobar la velocidad de tu
     
    - Descripción: Cambiar los servidores DNS en la configuración del router permite controlar las resoluciones de nombres de dominio para todos los dispositivos conectados a la red. Esto puede ser útil para mejorar la seguridad y la velocidad de navegación, así como para filtrar contenido no deseado. Al configurar servidores DNS confiables, como los de Google o OpenDNS, puedes experimentar una navegación más rápida y segura en todos tus dispositivos conectados a la red.
 
-## 4. Desactivar la capacidad de Windows de ajustar automáticamente el tamaño de los búferes de red.
-  - En Windows: Abre el "Símbolo del sistema" (Command Prompt) y escribe```netsh int tcp set global autotuninglevel=disabled ```
-  - Descripción: Esto puede ser necesario en situaciones donde se experimentan problemas de latencia o rendimiento en la red, ya que deshabilitar esta función permite un control más preciso sobre la configuración de los búferes de red, lo que puede mejorar la estabilidad y el rendimiento de la conexión.
-
 ## 4. Cómo cambiar el MTU
 - Cambiar el MTU puede mejorar la eficiencia y la estabilidad de la conexión de red al permitir que los paquetes se transmitan de manera más eficiente. Esto puede conducir a una mejor calidad de la conexión y un rendimiento más rápido en ciertas situaciones.
 
@@ -76,6 +72,10 @@ Puedes utilizar el comando ping para determinar el MTU estable de tu conexión. 
 3. **Cambiar el MTU con el nuevo valor**
 - Puedes cambiar el MTU de una interfaz de red utilizando el siguiente comando:
 ```netsh interface ipv4 set subinterface "Ethernet" mtu= [tamaño_paquete] store=persistent```
+
+## 5. Desactivar la capacidad de Windows de ajustar automáticamente el tamaño de los búferes de red.
+  - En Windows: Abre el "Símbolo del sistema" (Command Prompt) y escribe```netsh int tcp set global autotuninglevel=disabled ```
+  - Descripción: Esto puede ser necesario en situaciones donde se experimentan problemas de latencia o rendimiento en la red, ya que deshabilitar esta función permite un control más preciso sobre la configuración de los búferes de red, lo que puede mejorar la estabilidad y el rendimiento de la conexión.
 
 ### Lista de Algunos Servidores DNS Populares
 
