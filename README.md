@@ -1,5 +1,15 @@
 # Optimizar Internet
 
+## Índice
+1. [Comprobar la Velocidad de Internet Después de la Optimización](#comprobar-la-velocidad-de-internet-después-de-la-optimización)
+2. [Configuración de la tarjeta de red](#configuración-de-la-tarjeta-de-red)
+3. [Cómo Obtener la Puerta de Enlace, Acceder al Router y Configurar los Servidores DNS](#cómo-obtener-la-puerta-de-enlace-acceder-al-router-y-configurar-los-servidores-dns)
+4. [Cómo cambiar el MTU](#cómo-cambiar-el-mtu)
+5. [Desactivar la capacidad de Windows de ajustar automáticamente el tamaño de los búferes de red](#desactivar-la-capacidad-de-windows-de-ajustar-automáticamente-el-tamaño-de-los-búferes-de-red)
+6. [Lista de Algunos Servidores DNS Populares](#lista-de-algunos-servidores-dns-populares)
+7. [Licencia](#licencia)
+8. [Nota importante](#nota-importante)
+
 ## 1. Comprobar la Velocidad de Internet Después de la Optimización
 
 Antes de realizar cualquier cambio, es recomendable comprobar la velocidad de tu conexión a Internet. Esto te permitirá evaluar si los ajustes de configuración, como la optimización de DNS, han tenido un efecto positivo en el rendimiento de tu conexión. Puedes utilizar el sitio web [Speedtest](https://www.speedtest.net/es) para realizar esta prueba y comparar los resultados con mediciones anteriores.
