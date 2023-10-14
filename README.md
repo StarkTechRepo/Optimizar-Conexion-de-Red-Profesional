@@ -108,3 +108,4 @@ Este proyecto está bajo la licencia [Creative Commons Attribution 4.0 Internati
 
 ### Nota importante
 Se recomienda encarecidamente hacer una copia de seguridad de los datos importantes antes de continuar. El autor no se hace responsable de ningún daño o problema causado por el uso de este script.
+
