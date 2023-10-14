@@ -1,12 +1,12 @@
 # Optimizar Internet
 
 ## Índice
-1. [Comprobar la Velocidad de Internet Después de la Optimización](#comprobar-la-velocidad-de-internet-después-de-la-optimización)
-2. [Configuración de la tarjeta de red](#configuración-de-la-tarjeta-de-red)
-3. [Cómo Obtener la Puerta de Enlace, Acceder al Router y Configurar los Servidores DNS](#cómo-obtener-la-puerta-de-enlace-acceder-al-router-y-configurar-los-servidores-dns)
-4. [Cómo cambiar el MTU](#cómo-cambiar-el-mtu)
-5. [Desactivar la capacidad de Windows de ajustar automáticamente el tamaño de los búferes de red](#desactivar-la-capacidad-de-windows-de-ajustar-automáticamente-el-tamaño-de-los-búferes-de-red)
-6. [Lista de Algunos Servidores DNS Populares](#lista-de-algunos-servidores-dns-populares)
+1. [Comprobar la Velocidad de Internet Después de la Optimización](#1-comprobar-la-velocidad-de-internet-después-de-la-optimización)
+2. [Configuración de la tarjeta de red](#2-configuración-de-la-tarjeta-de-red)
+3. [Cómo Obtener la Puerta de Enlace, Acceder al Router y Configurar los Servidores DNS](#3-cómo-obtener-la-puerta-de-enlace-acceder-al-router-y-configurar-los-servidores-dns)
+4. [Cómo cambiar el MTU](#4-cómo-cambiar-el-mtu)
+5. [Desactivar la capacidad de Windows de ajustar automáticamente el tamaño de los búferes de red](#5-desactivar-la-capacidad-de-windows-de-ajustar-automáticamente-el-tamaño-de-los-búferes-de-red)
+6. [Lista de Algunos Servidores DNS Populares](#6-lista-de-algunos-servidores-dns-populares)
 7. [Licencia](#licencia)
 8. [Nota importante](#nota-importante)
 
