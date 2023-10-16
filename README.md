@@ -1,5 +1,7 @@
 # Optimizar Internet
 
+![Imagen](foto.jpg)
+
 ## Índice
 1. [Comprobar la Velocidad de Internet Después de la Optimización](#1-comprobar-la-velocidad-de-internet-después-de-la-optimización)
 2. [Configuración de la tarjeta de red](#2-configuración-de-la-tarjeta-de-red)
